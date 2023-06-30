@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table concreta_shorturl_shorturls'
+    - builder_table_create_concreta_shorturl_shorturls.php
+1.0.3:
+    - 'Created table concreta_shorturl_short_url_visits'
+    - builder_table_create_concreta_shorturl_short_url_visits.php

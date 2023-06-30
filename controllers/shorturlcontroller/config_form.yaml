@@ -1,0 +1,10 @@
+name: ShortURLController
+form: $/concreta/shorturl/models/shorturl/fields.yaml
+modelClass: Concreta\Shorturl\Models\ShortURL
+defaultRedirect: concreta/shorturl/shorturlcontroller
+create:
+    redirect: 'concreta/shorturl/shorturlcontroller/update/:id'
+    redirectClose: concreta/shorturl/shorturlcontroller
+update:
+    redirect: concreta/shorturl/shorturlcontroller
+    redirectClose: concreta/shorturl/shorturlcontroller

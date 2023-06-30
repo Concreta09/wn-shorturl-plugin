@@ -1,0 +1,58 @@
+columns:
+    id:
+        label: id
+        type: text
+    destination_url:
+        label: destination_url
+        type: text
+    url_key:
+        label: url_key
+        type: text
+    default_short_url:
+        label: default_short_url
+        type: text
+    single_use:
+        label: single_use
+        type: switch
+    forward_query_params:
+        label: forward_query_params
+        type: switch
+    track_visits:
+        label: track_visits
+        type: switch
+    redirect_status_code:
+        label: redirect_status_code
+        type: number
+    track_ip_address:
+        label: track_ip_address
+        type: switch
+    track_operating_system:
+        label: track_operating_system
+        type: switch
+    track_operating_system_version:
+        label: track_operating_system_version
+        type: switch
+    track_browser:
+        label: track_browser
+        type: switch
+    track_browser_version:
+        label: track_browser_version
+        type: switch
+    track_referer_url:
+        label: track_referer_url
+        type: switch
+    track_device_type:
+        label: track_device_type
+        type: switch
+    activated_at:
+        label: activated_at
+        type: text
+    deactivated_at:
+        label: deactivated_at
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime

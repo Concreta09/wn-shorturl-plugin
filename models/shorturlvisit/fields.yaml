@@ -1,0 +1,49 @@
+fields:
+    id:
+        label: Id
+        span: auto
+        type: number
+    short_url_id:
+        label: 'Short url id'
+        span: auto
+        type: number
+    ip_address:
+        label: 'Ip address'
+        span: auto
+        type: text
+    operating_system:
+        label: 'Operating system'
+        span: auto
+        type: text
+    operating_system_version:
+        label: 'Operating system version'
+        span: auto
+        type: text
+    browser:
+        label: Browser
+        span: auto
+        type: text
+    browser_version:
+        label: 'Browser version'
+        span: auto
+        type: text
+    referer_url:
+        label: 'Referer url'
+        span: auto
+        type: text
+    device_type:
+        label: 'Device type'
+        span: auto
+        type: text
+    visited_at:
+        label: 'Visited at'
+        span: auto
+        type: datepicker
+    created_at:
+        label: 'Created at'
+        span: auto
+        type: datepicker
+    updated_at:
+        label: 'Updated at'
+        span: auto
+        type: datepicker

@@ -1,0 +1,40 @@
+columns:
+    id:
+        label: id
+        type: text
+    short_url_id:
+        label: short_url_id
+        type: text
+    ip_address:
+        label: ip_address
+        type: text
+    operating_system:
+        label: operating_system
+        type: text
+    operating_system_version:
+        label: operating_system_version
+        type: text
+    browser:
+        label: browser
+        type: text
+    browser_version:
+        label: browser_version
+        type: text
+    referer_url:
+        label: referer_url
+        type: text
+    device_type:
+        label: device_type
+        type: text
+    visited_at:
+        label: visited_at
+        type: text
+    deleted_at:
+        label: deleted_at
+        type: datetime
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime

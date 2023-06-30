@@ -1,0 +1,90 @@
+fields:
+    destination_url:
+        label: 'Destination url'
+        span: auto
+        size: tiny
+        type: textarea
+    url_key:
+        label: 'Url key'
+        span: auto
+        disabled: true
+        type: text
+
+    default_short_url:
+        label: 'Default short url'
+        span: right
+        disabled: true
+        type: text
+    redirect_status_code:
+        label: 'Redirect status code'
+        span: left
+        type: dropdown
+        options:
+            301: 301 (permanently)
+            302: 302 (temporary)
+    activated_at:
+        label: 'Activated at'
+        span: auto
+        type: datepicker
+    deactivated_at:
+        label: 'Deactivated at'
+        span: auto
+        type: datepicker
+    created_at:
+        label: 'Created at'
+        span: auto
+        type: datepicker
+    updated_at:
+        label: 'Updated at'
+        span: auto
+        type: datepicker
+    single_use:
+        label: 'Single use'
+        span: left
+        type: checkbox
+    forward_query_params:
+        label: 'Forward query params'
+        span: left
+        type: checkbox
+tabs:
+    fields:
+        track_visits:
+            label: 'Track visits'
+            span: auto
+            type: checkbox
+            tab: 'Tracking options'
+        track_ip_address:
+            label: 'Track ip address'
+            span: auto
+            type: checkbox
+            tab: 'Tracking options'
+        track_operating_system:
+            label: 'Track operating system'
+            span: auto
+            type: checkbox
+            tab: 'Tracking options'
+        track_operating_system_version:
+            label: 'Track operating system version'
+            span: auto
+            type: checkbox
+            tab: 'Tracking options'
+        track_browser:
+            label: 'Track browser'
+            span: auto
+            type: checkbox
+            tab: 'Tracking options'
+        track_browser_version:
+            label: 'Track browser version'
+            span: auto
+            type: checkbox
+            tab: 'Tracking options'
+        track_referer_url:
+            label: 'Track referer url'
+            span: auto
+            type: checkbox
+            tab: 'Tracking options'
+        track_device_type:
+            label: 'Track device type'
+            span: auto
+            type: checkbox
+            tab: 'Tracking options'
