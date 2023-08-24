@@ -1,7 +1,7 @@
 {
     "name": "concreta/wn-shorturl-plugin",
     "type": "winter-plugin",
-    "description": "A WinterCMS package based on ashallendesign/short-url package for creating shortened URLs for your web apps.",
+    "description": "A WinterCMS plugin based on ashallendesign/short-url package for creating shortened URLs for your web apps.",
     "keywords": ["url", "shortener", "plugin"],
     "license": "GPL3",
     "authors": [
