@@ -40,6 +40,18 @@ class Plugin extends PluginBase
         ];
     }
 
+    public function registerPermissions()
+    {
+        return [
+            'concreta.shorturl.manage' => [
+                'label' => 'Edit shorthurls',
+                'tab' => 'URL shortener',
+                'order' => 200,
+                'roles' => []
+            ],
+        ];
+    }
+
     public function boot()
     {
         $this->registerShortURLProvider();
