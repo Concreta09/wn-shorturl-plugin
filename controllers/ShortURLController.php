@@ -1,7 +1,9 @@
 <?php namespace Concreta\ShortURL\Controllers;
 
-use Backend\Classes\Controller;
+use Backend;
+use Redirect;
 use BackendMenu;
+use Backend\Classes\Controller;
 use Concreta\ShortURL\Classes\Resolver;
 use Concreta\ShortURL\Models\ShortURL;
 use Illuminate\Http\RedirectResponse;
@@ -25,7 +27,8 @@ class ShortURLController extends Controller
 
     public function create()
     {
-        return $this->asExtension('FormController')->index();
+        $redirect = Backend::url('concreta/shorturl/shorturlcontroller/');
+        return Redirect::to($redirect);
     }
 
     /**
