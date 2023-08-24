@@ -23,6 +23,11 @@ class ShortURLController extends Controller
         BackendMenu::setContext('Concreta.ShortURL', 'shorturl-mainmenu', 'shorturl-sidemenu-shorturls');
     }
 
+    public function create()
+    {
+        return $this->asExtension('FormController')->index();
+    }
+
     /**
      * Redirect the user to the intended destination URL. If the default
      * route has been disabled in the config but the controller has
