@@ -108,14 +108,4 @@ class ShortURLVisit extends Model
 
         return $modelFactory::new();
     }
-
-    /**
-     * A URL visit belongs to one specific shortened URL.
-     *
-     * @return BelongsTo<ShortURL, ShortURLVisit>
-     */
-    public function shortURL(): BelongsTo
-    {
-        return $this->belongsTo(ShortURL::class, 'short_url_id');
-    }
 }
