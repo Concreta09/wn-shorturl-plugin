@@ -23,7 +23,7 @@ return [
     |
     */
     'middleware' => [
-        //
+        'Concreta\Grul\Middlewares\CustomQrcodeMiddleware',
     ],
 
     /*
@@ -92,7 +92,7 @@ return [
     | method.
     |
     */
-    'enforce_https'         => true,
+    'enforce_https'         => false,
 
     /*
     |--------------------------------------------------------------------------
